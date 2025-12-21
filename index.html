@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEXX Token Presale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Letter Modal -->
+    <div id="letterModal" class="letter-modal">
+        <div class="letter-container">
+            <div class="letter-header">
+                <h2 class="letter-title">致DEXX用户的一封信</h2>
+            </div>
+            <div id="letterPreview" class="letter-preview">
+                <p class="letter-preview-text">点击下方按钮阅读完整内容</p>
+                <button id="readBtn" class="read-btn" data-i18n="readLetter">阅读</button>
+            </div>
+            <div id="letterContent" class="letter-content" style="display: none;">
+                <div class="letter-body">
+                    <p><strong>📩 Dexx 致社区与所有用户的一封信</strong></p>
+                    
+                    <p>亲爱的 Dexx 社区伙伴、每一位在此次事件中受到影响的用户：</p>
+                    
+                    <p>在经历了这段沉重、焦虑与不确定的日子后，Dexx 团队终于鼓起勇气，把这封信写给你们。</p>
+                    
+                    <p>首先，我们必须说一句话：<br>
+                    <strong>我们对不起你们。</strong></p>
+                    
+                    <p>那天发生的一切，不仅伤害了你们，也重重地击中了 Dexx 团队的心。<br>
+                    当资产被非法转移、后台报警声响起时，我们每一个人都感到前所未有的恐慌与无力。<br>
+                    屏幕上的每一行代码、每一条链上交易，都让我们无法平息心头的自责。</p>
+                    
+                    <p>我们知道，你们害怕、焦虑、甚至失望；<br>
+                    而 Dexx 团队的每一位成员，也同样痛心、愧疚、焦灼。<br>
+                    作为项目方，没有什么比"辜负信任"更令人撕心裂肺。</p>
+                    
+                    <hr class="letter-divider">
+                    
+                    <p><strong>❤️ Dexx 真诚感谢你们</strong></p>
+                    
+                    <p>感谢那些在第一时间安慰我们的用户。<br>
+                    你们说："没关系，我们相信你们"，这句话成为我们继续前行的灯塔。</p>
+                    
+                    <p>感谢那些即使受损，也耐心等待赔付的伙伴。<br>
+                    你们的信任，是 Dexx 最宝贵的财富。</p>
+                    
+                    <p>感谢那些提出批评、质疑甚至怒骂的朋友。<br>
+                    你们的每一句话，我们都反复记录、反复讨论，用来推动 Dexx 变得更坚强。</p>
+                    
+                    <p>感谢所有没有离开 Dexx 的人。<br>
+                    你们的坚持，让我们看到，这个社区不只是数字，而是温暖、信任与责任的集合。</p>
+                    
+                    <hr class="letter-divider">
+                    
+                    <p><strong>🙏 我们的道歉</strong></p>
+                    
+                    <p>这次事件，是 Dexx 安全体系中最沉痛的一课。<br>
+                    我们没有逃避，也不推卸责任。<br>
+                    我们选择承担，推进赔付，彻夜排查漏洞，重建安全体系。</p>
+                    
+                    <p>对于赔付中出现的延迟，我们向未赔付的用户深深致歉。<br>
+                    我们理解，每一天的等待都是煎熬，每一次刷新账户都是心跳加速。<br>
+                    请相信：每一位受影响的用户都在我们的赔付名单上，没有人被遗漏。<br>
+                    没有一分钱会被忽略。</p>
+                    
+                    <hr class="letter-divider">
+                    
+                    <p><strong>🛡 针对未赔付用户的承诺</strong></p>
+                    
+                    <p><strong>1. 全员核查，确保无遗漏</strong><br>
+                    Dexx 团队正在逐户核对每一笔损失、每一个钱包地址，保证赔付精确无误。</p>
+                    
+                    <p><strong>2. 可视化进度</strong><br>
+                    我们将持续更新赔付进度，让每一位用户清楚看到自己的赔付在流程中的位置。</p>
+                    
+                    <p><strong>3. 安全保障</strong><br>
+                    所有赔付均经过多重链上验证、双签和安全复核流程，确保您的资产安全、准确无误。</p>
+                    
+                    <p><strong>4. 专属沟通渠道</strong><br>
+                    对未赔付用户，Dexx 提供专门客服通道和查询方式，确保每一笔赔付都透明、可追踪。</p>
+                    
+                    <hr class="letter-divider">
+                    
+                    <p><strong>💪 Dexx 的决心</strong></p>
+                    
+                    <p>这次事件没有击倒 Dexx，而是让我们更加坚强。<br>
+                    我们已经全面升级了安全体系：</p>
+                    
+                    <ul class="letter-list">
+                        <li>权限系统重建</li>
+                        <li>多重签名和链上验证机制</li>
+                        <li>异常交易实时监控</li>
+                        <li>第三方安全审计和风控加固</li>
+                    </ul>
+                    
+                    <p>Dexx 承诺，类似事件绝不会再次发生。<br>
+                    我们要让信任回到每一位用户的手中，用行动兑现承诺。</p>
+                    
+                    <hr class="letter-divider">
+                    
+                    <p><strong>🌱 最后，致每一位支持者</strong></p>
+                    
+                    <p>谢谢你们没有放弃 Dexx。<br>
+                    谢谢你们仍在等待、仍在相信。<br>
+                    谢谢你们给了我们机会，让 Dexx 重生。</p>
+                    
+                    <p>未来，Dexx 会带着每一位用户一起前行。<br>
+                    每一次系统升级、每一次安全加固、每一次赔付到账，都是我们兑现承诺的证据。</p>
+                    
+                    <p><strong>Dexx 欠你们的，将用未来每一天去偿还。</strong></p>
+                    
+                    <p class="letter-signature">—— Dexx 官方团队 敬上</p>
+                </div>
+                <button id="enterPresaleBtn" class="enter-presale-btn" data-i18n="enterPresale">进入预售界面</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 class="logo-text">DEXX</h1>
+                </div>
+                <div class="header-actions">
+                    <button id="langToggle" class="lang-btn">EN</button>
+                    <button id="connectWalletBtn" class="connect-wallet-btn" data-i18n="connectWallet">Connect Wallet</button>
+                    <div id="walletInfo" class="wallet-info" style="display: none;">
+                        <div class="wallet-address" id="walletAddress"></div>
+                        <div class="wallet-balance" id="walletBalance"></div>
+                        <div class="wallet-chain" id="walletChain"></div>
+                        <button id="disconnectWalletBtn" class="disconnect-btn" data-i18n="disconnect">Disconnect</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <h2 class="hero-title" data-i18n="heroTitle">DEXX Token Presale</h2>
+                <p class="hero-subtitle" data-i18n="heroSubtitle">Join the future of decentralized AI trading</p>
+            </section>
+
+            <!-- Presale Info Card -->
+            <section class="presale-card">
+                <div class="presale-header">
+                    <h3 class="presale-title" data-i18n="presaleTitle">Presale Progress</h3>
+                    <div class="presale-deadline"><span data-i18n="deadline">截止:</span> <span id="deadlineDate">2025/12/30</span></div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="progress-info">
+                        <span class="progress-label" data-i18n="progress">Progress</span>
+                        <span class="progress-percentage" id="progressPercentage">43.5%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                </div>
+
+                <div class="presale-stats">
+                    <div class="stat-item">
+                        <div class="stat-label" data-i18n="totalSupply">Total Supply</div>
+                        <div class="stat-value">1,000,000,000 DEXX</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label" data-i18n="presalePrice">Presale Price</div>
+                        <div class="stat-value">$0.01 / DEXX</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label" data-i18n="minPurchase">Min Purchase</div>
+                        <div class="stat-value">500 USDT</div>
+                    </div>
+                </div>
+
+                <!-- User Participation Info -->
+                <div id="userParticipation" class="user-participation" style="display: none;">
+                    <div class="participation-header">
+                        <h4 data-i18n="yourParticipation">Your Participation</h4>
+                    </div>
+                    <div class="participation-amount">
+                        <span data-i18n="totalContributed">Total Contributed:</span>
+                        <span id="userContributedAmount" class="amount-value">0 USDT</span>
+                    </div>
+                </div>
+
+                <!-- Purchase Form -->
+                <div class="purchase-form">
+                    <div class="form-group">
+                        <label for="purchaseAmount" data-i18n="enterAmount">Enter Amount (USDT)</label>
+                        <div class="input-group">
+                            <input 
+                                type="number" 
+                                id="purchaseAmount" 
+                                class="amount-input" 
+                                placeholder="500" 
+                                min="500" 
+                                step="0.01"
+                            >
+                            <button id="maxBtn" class="max-btn" data-i18n="max">MAX</button>
+                        </div>
+                        <div class="input-hint" data-i18n="minAmount">Minimum: 500 USDT</div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="estimated-receive">
+                            <span data-i18n="youWillReceive">You will receive:</span>
+                            <span id="estimatedTokens" class="estimated-value">0 DEXX</span>
+                        </div>
+                    </div>
+
+                    <button id="participateBtn" class="participate-btn" disabled data-i18n="participate">Participate in Presale</button>
+                    <button id="participateAgainBtn" class="participate-again-btn" style="display: none;" disabled data-i18n="participateAgain">Participate Again</button>
+                </div>
+
+                <!-- Transaction Status -->
+                <div id="transactionStatus" class="transaction-status" style="display: none;">
+                    <div class="status-message" id="statusMessage"></div>
+                    <div class="tx-hash" id="txHash" style="display: none;"></div>
+                </div>
+            </section>
+
+            <!-- Tokenomics Section -->
+            <section class="tokenomics-section">
+                <h3 class="section-title" data-i18n="tokenomics">Tokenomics</h3>
+                <div class="tokenomics-grid">
+                    <div class="tokenomics-item">
+                        <div class="tokenomics-label" data-i18n="privateSale">Private Sale & Angel</div>
+                        <div class="tokenomics-value">10% (100M)</div>
+                    </div>
+                    <div class="tokenomics-item">
+                        <div class="tokenomics-label" data-i18n="publicSale">Public Sale / IDO</div>
+                        <div class="tokenomics-value">5% (50M)</div>
+                    </div>
+                    <div class="tokenomics-item">
+                        <div class="tokenomics-label" data-i18n="team">Team & Founders</div>
+                        <div class="tokenomics-value">15% (150M)</div>
+                    </div>
+                    <div class="tokenomics-item">
+                        <div class="tokenomics-label" data-i18n="advisors">Advisors & Partners</div>
+                        <div class="tokenomics-value">5% (50M)</div>
+                    </div>
+                    <div class="tokenomics-item">
+                        <div class="tokenomics-label" data-i18n="rewards">Rewards & Community</div>
+                        <div class="tokenomics-value">20% (200M)</div>
+                    </div>
+                    <div class="tokenomics-item">
+                        <div class="tokenomics-label" data-i18n="liquidity">Liquidity & Market Making</div>
+                        <div class="tokenomics-value">25% (250M)</div>
+                    </div>
+                    <div class="tokenomics-item">
+                        <div class="tokenomics-label" data-i18n="ecosystem">Ecosystem Fund</div>
+                        <div class="tokenomics-value">20% (200M)</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Utility Section -->
+            <section class="utility-section">
+                <h3 class="section-title" data-i18n="tokenUtility">Token Utility</h3>
+                <div class="utility-list">
+                    <div class="utility-item" data-i18n="utility1">Trading fee discounts on DEX/CEX</div>
+                    <div class="utility-item" data-i18n="utility2">LP rewards & Staking rewards</div>
+                    <div class="utility-item" data-i18n="utility3">Platform governance (DAO voting rights)</div>
+                    <div class="utility-item" data-i18n="utility4">Priority access to new project Launchpad/IDO</div>
+                    <div class="utility-item" data-i18n="utility5">Airdrops & community incentives</div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="https://twitter.com/dexxai_cn" target="_blank" class="footer-link" data-i18n="twitter">Twitter</a>
+                    <a href="https://t.me/Dexx_cn" target="_blank" class="footer-link" data-i18n="telegram">Telegram</a>
+                </div>
+                <div class="footer-text" data-i18n="footerText">© 2025 DEXX. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.7.1/dist/ethers.umd.min.js"></script>
+    <script>
+        // Wait for ethers to load before initializing
+        if (typeof ethers !== 'undefined') {
+            // Ethers already loaded
+            const script = document.createElement('script');
+            script.src = 'main.js';
+            document.body.appendChild(script);
+        } else {
+            // Wait for ethers to load
+            window.addEventListener('load', function() {
+                if (typeof ethers === 'undefined') {
+                    console.error('ethers.js failed to load. Trying alternative CDN...');
+                    // Try alternative CDN
+                    const script = document.createElement('script');
+                    script.src = 'https://unpkg.com/ethers@6.7.1/dist/ethers.umd.min.js';
+                    script.onload = function() {
+                        const mainScript = document.createElement('script');
+                        mainScript.src = 'main.js';
+                        document.body.appendChild(mainScript);
+                    };
+                    script.onerror = function() {
+                        alert('Failed to load ethers.js library. Please check your internet connection.');
+                    };
+                    document.body.appendChild(script);
+                } else {
+                    const script = document.createElement('script');
+                    script.src = 'main.js';
+                    document.body.appendChild(script);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+
