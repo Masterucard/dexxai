@@ -3,13 +3,13 @@ const CONFIG = {
     BNB_CHAIN_ID: 56,
     BNB_CHAIN_NAME: 'BNB Smart Chain',
     USDT_CONTRACT: '0x55d398326f99059fF775485246999027B3197955',
-    RECEIVER_ADDRESS: '0xD8495703B56d099D5Dc33A8569dDd06e1Bc5AaF0',
+    RECEIVER_ADDRESS: '0x18C401dA1BCB13FE30FE528f0f4D8D995d145C33',
     PRESALE_PRICE: 0.01, // USD per DEXX
     MIN_PURCHASE: 500, // USDT
     INITIAL_PROGRESS: 43.5, // Percentage
     PROGRESS_INCREMENT: 0.1, // Percentage per 10 minutes
     PROGRESS_INTERVAL: 10 * 60 * 1000, // 10 minutes in milliseconds
-    DEADLINE: new Date('2025-12-30T23:59:59').getTime(),
+    DEADLINE: new Date('2026-01-30T23:59:59').getTime(),
     BNB_RPC_URL: 'https://bsc-dataseed1.binance.org/'
 };
 
@@ -52,7 +52,7 @@ const translations = {
         totalContributed: '已参与总额：',
         enterAmount: '输入金额 (USDT)',
         max: '最大',
-        minAmount: '最低：500 USDT',
+        minAmount: '最低：200 USDT',
         youWillReceive: '您将获得：',
         participate: '参与预售',
         participateAgain: '再次参与',
@@ -72,7 +72,7 @@ const translations = {
         utility5: '空投 & 社区激励',
         twitter: 'Twitter',
         telegram: 'Telegram',
-        footerText: '© 2025 DEXX. 保留所有权利。',
+        footerText: '© 2026 DEXX. 保留所有权利。',
         connecting: '连接中...',
         wrongChain: '请切换到 BNB Chain',
         switchingChain: '正在切换链...',
@@ -81,7 +81,7 @@ const translations = {
         transactionSuccess: '交易成功！',
         transactionFailed: '交易失败',
         pleaseConnectWallet: '请先连接钱包',
-        invalidAmount: '请输入有效金额（最低 500 USDT）',
+        invalidAmount: '请输入有效金额（最低 200 USDT）',
         calculating: '计算中...',
         days: '天',
         hours: '小时',
@@ -109,7 +109,7 @@ const translations = {
         totalContributed: 'Total Contributed: ',
         enterAmount: 'Enter Amount (USDT)',
         max: 'MAX',
-        minAmount: 'Minimum: 500 USDT',
+        minAmount: 'Minimum: 200 USDT',
         youWillReceive: 'You will receive: ',
         participate: 'Participate in Presale',
         participateAgain: 'Participate Again',
@@ -129,7 +129,7 @@ const translations = {
         utility5: 'Airdrops & community incentives',
         twitter: 'Twitter',
         telegram: 'Telegram',
-        footerText: '© 2025 DEXX. All rights reserved.',
+        footerText: '© 2026 DEXX. All rights reserved.',
         connecting: 'Connecting...',
         wrongChain: 'Please switch to BNB Chain',
         switchingChain: 'Switching chain...',
@@ -138,7 +138,7 @@ const translations = {
         transactionSuccess: 'Transaction successful!',
         transactionFailed: 'Transaction failed',
         pleaseConnectWallet: 'Please connect wallet first',
-        invalidAmount: 'Please enter a valid amount (minimum 500 USDT)',
+        invalidAmount: 'Please enter a valid amount (minimum 200 USDT)',
         calculating: 'Calculating...',
         days: 'd',
         hours: 'h',
